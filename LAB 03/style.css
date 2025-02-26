@@ -1,0 +1,156 @@
+body{
+    margin: 0px;
+    padding: 0%;
+}
+
+nav{
+    background-color: lightblue;
+    padding: 20px;
+    text-align: center;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+nav ul li{
+    display: inline;
+}
+
+nav ul li a{
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* section{
+    background-color: #dcdcdc;
+} */
+
+
+.context{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    justify-content: center;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 6px 6px 6px 6px;
+}
+
+.box{
+    display: flex;
+    gap: 20px;  
+}
+.container{
+    background-color: white;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 6px;
+    flex: 1;
+}
+
+.con{
+    background-color: white;
+    height: 200px;
+    width: fit-content;
+    padding: 20px;
+    margin: 20px;
+    text-align: center;
+    box-shadow: 0px 0px 10px gray;
+    border-radius: 6px;
+}
+
+
+table {
+    text-align: center;
+    width: 60%;
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+thead{
+    background-color: rgb(38, 80, 160);
+    color: black;
+    font-weight: bold;
+}
+
+th, td{
+    border: 1px solid;
+    padding: 10px;
+    text-align: center;
+}
+
+form{
+    justify-content: center;
+    text-align: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 6px;
+
+}
+
+.form-container {
+    background: #ffffff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 800px;
+    text-align: center;
+    justify-content: center;
+}
+
+h2 {
+    margin-bottom: 15px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+input, select, button {
+    margin: 10px 0;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 14px;
+    width: 100%;
+}
+
+input:focus, select:focus {
+    border-color: #1976D2;
+    outline: none;
+}
+
+.gender-options {
+    display: flex;
+    gap: 10px;
+    margin: 10px 0;
+}
+
+button {
+    background-color: #1976D2;
+    color: white;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+button:hover {
+    background-color: #135ba1;
+}
+
+.footer {
+    height: 40px;
+    font-size: 10px;
+    background-color: #1976D2;
+    text-align: center;
+    margin-top: 15px;
+    font-size: 12px;
+    color: #666;
+}

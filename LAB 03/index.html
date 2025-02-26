@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Html & CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#About Us">About</a></li>
+        <li><a href="#Web Design">Service</a></li>
+        <li><a href="#">Contact</a></li>
+        </ul>
+        
+    </nav>
+
+    <section>
+        <div class="context">
+            <h2>Home</h2>
+            <p>Welcome to our static website. We offer a variety of services to caler to your needs.</p>
+        </div>
+            
+        <div class="context">
+            <h2>About Us</h2>
+            <p>We are passonate Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ducimus libero unde nihil corrupti magni doloribus veritatis labore, in eaque reiciendis incidunt dolor nulla? Repudiandae eum quo ab? Unde, ab aliquid.</p>
+        </div>
+    
+        <div class="box">
+            <div class="container">
+                <h2>Web Design</h2>
+                <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod, dignissimos. Dolore voluptatem voluptatibus, obcaecati enim impedit natus, inventore, ipsam iusto eum ad ipsum autem. Ipsa hic vitae sed eius rem.</p>
+            </div>
+        
+            <div class="container">
+                <h2>SEO Optimization</h2>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Modi ad eveniet assumenda cum odio accusantium atque voluptas natus earum quibusdam ipsa quasi dolorum beatae eos, nesciunt non rerum delectus quos!</p>
+            </div>
+        </div>
+        
+    
+        <div class="con">
+            <h2>Responsive Design</h2>
+            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Officia minima, harum eveniet facilis possimus debitis odit quas deleniti sed provident ratione voluptas! Adipisci neque laborum ducimus saepe accusantium perferendis at!</p>
+        </div>
+
+        <div>
+            <table class="tab">
+                <head>
+                    <h1>Service Table</h1>
+                </head>
+                <thead>
+                    <tr>
+                        <td>ID</td>
+                        <td>Name</td>
+                        <td>Age</td>
+                    </tr>
+                </thead>
+                <tr>
+                    <td rowspan="2">1</td>
+                    <td>Alice</td>
+                    <td>25</td>
+                    
+                </tr>
+                <tr>
+                    <td colspan="2">Data Magnet</td>
+                </tr>
+
+                <tr>
+                    <td>2</td>
+                    <td>Bob</td>
+                    <td>30</td>
+                </tr>
+                <tr>
+                    <td>3</td>
+                    <td>Jara</td>
+                    <td>10</td>
+                </tr>
+            </table>
+        </div>
+
+        <div class="form-container">
+            <h2>Contact Form</h2>
+    
+            <form id="contactForm" action="#">
+                <input type="text" id="name" name="name" placeholder="Enter your name" required pattern="[A-Za-z ]+">
+    
+                <input type="email" id="email" name="email" placeholder="Enter your email" required>
+    
+                <input type="password" id="password" name="password" placeholder="Enter your password" required pattern="[a-zA-Z0-9!@#$%^&*]+">
+    
+                <input type="tel" id="phone" name="phone" placeholder="Enter your phone number" required pattern="[0-9]{10}">
+    
+                <input type="text" id="address" name="address" placeholder="Enter your address" required>
+    
+                <label>Gender:</label>
+                <div class="gender-options">
+                    <label><input type="radio" name="gender" value="male" required> Male</label>
+                    <label><input type="radio" name="gender" value="female" required> Female</label>
+                    <label><input type="radio" name="gender" value="other" required> Other</label>
+                </div>
+    
+                <select id="country" name="country" required>
+                    <option value="" disabled selected>Select your country</option>
+                    <option value="Bangladesh">Bangladesh</option>
+                    <option value="india">India</option>
+                    <option value="Vietnum">Vietnum</option>
+                    <option value="Belgium">Belgium</option>
+                    <option value="Srilanka">Srilanka</option>
+                </select>
+    
+                <button type="submit">Submit</button>
+            </form>
+    
+            
+        </div>
+
+    </section>
+
+    
+</body>
+<footer>
+    <p class="footer">&copy; 2025 Your Website | All Rights Reserved</p>
+</footer>
+</html>
