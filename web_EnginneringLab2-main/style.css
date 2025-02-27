@@ -1,0 +1,120 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    margin: 0;
+    padding: 20px;
+}
+
+header, footer {
+    text-align: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+}
+
+main {
+    max-width: 600px;
+    margin: 20px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+h2, h3 {
+    color: #444;
+    margin-bottom: 20px;
+}
+
+/* Button Styles */
+button {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#tryMeBtn {
+    background-color: #28a745;
+}
+
+#tryMeBtn:hover {
+    background-color: #218838;
+}
+
+form {
+    margin-bottom: 30px;
+}
+
+label {
+    display: block;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+
+input[type="text"],
+input[type="password"],
+input[type="email"],
+input[type="date"] {
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+input[type="radio"],
+input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+.password-rules {
+    font-size: 0.9em;
+    color: #666;
+    margin-top: 5px;
+}
+
+
+.error {
+    color: #dc3545;
+    font-size: 0.9em;
+    margin-top: 5px;
+    display: block;
+}
+
+.gender-group, .language-group {
+    margin-bottom: 15px;
+}
+
+.gender-group label, .language-group label {
+    font-weight: normal;
+    margin-right: 15px;
+}
+
+@media (max-width: 600px) {
+    main {
+        padding: 15px;
+    }
+
+    button {
+        width: 100%;
+        padding: 15px;
+    }
+
+    input[type="text"],
+    input[type="password"],
+    input[type="email"],
+    input[type="date"] {
+        font-size: 14px;
+    }
+}
